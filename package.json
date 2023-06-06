@@ -1,6 +1,13 @@
 {
+  "name": "flask-hello",
+  "version": "1.0.0",
+  "description": "This is a starter project for building Flask web applications with integrated Tailwind CSS for styling.",
+  "main": "run.py",
+  "repository": "https://github.com/inaki/flask-tailwindcss.git",
+  "author": "Iñaki <iiaranzadi@gmail.com>",
+  "license": "MIT",
   "scripts": {
-    "create-css": "npx tailwindcss -i ./app/static/src/styles.css -o ./app/static/css/main.css --watch"
+    "create-css": "npx tailwindcss -i ./app/static/src/styles.css -o ./app/static/css/main.css --minify --watch"
   },
   "dependencies": {
     "tailwindcss": "^3.3.2"
